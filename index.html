@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="survey.css">
+    <title>Survey Form</title>
+</head>
+<body>
+   <header>SURVEY FORM</header>
+   <main id="main">
+       <form >
+          <h4>Let us know how we can improve freeCodeCamp.</h4>
+           <label for="name" id="first" ><sup>*</sup>Name:</label>
+           <input type="text" placeholder="Enter your name" required>
+           <label for="Email"><sup>*</sup>Email:</label>
+           <input type="email" placeholder="Enter your Email" required>
+           <label for="age"><sup>*</sup>Age:</label>
+           <input type="text" placeholder="Age" required>
+           
+           
+           <h4>.Which option best describe your current role?</h4>
+           <select name="" id="">
+               <option value="student">Student</option>
+               <option value="Full Time Job">Full Time Job</option>
+               <option value="Full Time Learner">Full Time Learner</option>
+               <option value="Prefer not to say">Prefer not to say</option>
+               <option value="others">Others</option>
+           </select>
+           
+           <h4>.How likely is that you would recommend freeCodeCamp to a friend?</h4>
+           <label for=""><input type="radio">Definitely</label>
+           <label for=""><input type="radio">Maybe</label>
+           <label for=""><input type="radio">Not sure</label>
+           
+           <h4>What do you like most in FCC?</h4>
+           <select name="select an option" id="">
+           <option value="" type="radio">Challenges</option>
+           <option value="">Projects</option>
+           <option value="">Community</option>
+           <option value="">Open Source</option>
+           </select>
+           
+           <h4>Things that should be improved in the futire(check all that apply)</h4>
+           <label for="check">
+           <input type="checkbox"> Front-end project <br>
+           <input type="checkbox"> Back-end <br>
+           <input type="checkbox"> Data Visualization <br>
+           <input type="checkbox"> Challenges <br>
+           <input type="checkbox"> Open Source Community <br>
+           <input type="checkbox"> Gitter help room <br>
+           <input type="checkbox"> Videos <br>
+           <input type="checkbox"> City meetups <br>
+           <input type="checkbox"> Forum <br>
+           <input type="checkbox"> Additional courses
+           </label>
+           
+           <h4> Any comments or suggestion?</h4>
+           <textarea name="" id="" cols="30" rows="3" placeholder="Enter your comments here..."></textarea>
+           <br>
+           <button>Submit</button>
+       </form>
+   </main>
+    <script src="survey.js"></script>
+</body>
+</html>

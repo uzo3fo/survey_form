@@ -1,0 +1,25 @@
+body{
+    background-color: darkseagreen;
+    padding: 0 40px 0 40px;
+}
+#main{
+    background-color: white;
+    padding: 20px 0 0 20px;
+}
+
+header{
+    text-align: center;
+    font-size: 30px;
+}
+h4{
+    font-weight: 20;
+}
+label{
+    display: block;
+    margin-bottom: 20px;   
+}
+button{
+    background-color: skyblue;
+    margin: 20px 40px 30px 90px;
+    padding: 10px 10px 10px 10px;
+}
